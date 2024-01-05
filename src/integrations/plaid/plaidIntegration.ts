@@ -123,8 +123,8 @@ export class PlaidIntegration {
                     },
                     client_name: 'Mintable',
                     products: ['transactions'],
-                    country_codes: ['UK'], // TODO
-                    language: 'en-GB' // TODO
+                    country_codes: ['UK'],
+                    language: 'en-GB'
                 }
                 if (req.body.access_token) {
                     options.access_token = req.body.access_token
@@ -182,7 +182,7 @@ export class PlaidIntegration {
         return new Promise(async (resolve, reject) => {
             accountConfig = accountConfig as PlaidAccountConfig
             try {
-                const dateFormat = 'yyyy-MM-dd'
+                const dateFormat = 'dd-MM-yyyy'
                 const start = format(startDate, dateFormat)
                 const end = format(endDate, dateFormat)
 
