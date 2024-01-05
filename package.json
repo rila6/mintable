@@ -50,7 +50,7 @@
     "description": "Automate your personal finances – for free, with no ads, and no data collection.",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rila6/mintableUK.git"
+        "url": "git+https://github.com/rila6/mintable.git"
     },
     "keywords": [
         "finance",
